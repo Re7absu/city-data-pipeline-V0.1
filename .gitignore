@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Testing and linting cache
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Editor settings
+.vscode/
+
