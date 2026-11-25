@@ -57,7 +57,7 @@ Solid steps are implemented; dashed steps are planned.
 ## Project Structure
 
 ```text
-city-data-pipeline-V0.1/
+saudi-city-data-pipeline/
 ├── src/city_data_pipeline_v0_1/
 │   ├── __init__.py          # command entry point
 │   └── pipeline/
@@ -73,8 +73,8 @@ city-data-pipeline-V0.1/
 Requires [uv](https://docs.astral.sh/uv/) and a free WeatherAPI key.
 
 ```bash
-git clone https://github.com/Re7absu/city-data-pipeline-V0.1.git
-cd city-data-pipeline-V0.1
+git clone https://github.com/Re7absu/saudi-city-data-pipeline.git
+cd saudi-city-data-pipeline
 uv sync
 cp .env.example .env     # then put your own key in .env
 ```
@@ -111,3 +111,7 @@ data/raw/2026-11-25/jeddah_14-02-12.json
 - [ ] Load: store the cleaned data in PostgreSQL
 - [ ] Schedule the pipeline to run regularly
 - [ ] Add tests (mocked API responses) and replace `print` with logging
+
+## License
+
+Released under the [MIT License](LICENSE).
