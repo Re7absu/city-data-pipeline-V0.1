@@ -1,9 +1,9 @@
 [project]
 name = "city-data-pipeline-v0-1"
 version = "0.1.0"
-description = "Add your description here"
+description = "Collects current weather and air-quality data for ten Saudi cities from WeatherAPI and stores the raw responses."
 readme = "README.md"
-requires-python = ">=3.15"
+requires-python = ">=3.12"
 dependencies = [
     "dotenv>=0.9.9",
     "requests>=2.34.2",
